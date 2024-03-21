@@ -10,7 +10,7 @@ const HeaderTweets: React.FC = () => {
   const [tweet, setTweet] = useState("");
   return (
     <section>
-      <div className="flex gap-4">
+      <div className="flex gap-4 ml-4">
         <Avatar>
           <AvatarImage src="https://github.com/shadcn.png" />
           <AvatarFallback>CN</AvatarFallback>
