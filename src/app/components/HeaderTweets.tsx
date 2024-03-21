@@ -4,10 +4,13 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Textarea } from "@/components/ui/textarea";
-import { useState } from "react";
+import React, { useState } from "react";
 
 const HeaderTweets: React.FC = () => {
   const [tweet, setTweet] = useState("");
+  console.log(tweet);
+  
+
   return (
     <section>
       <div className="flex gap-4">

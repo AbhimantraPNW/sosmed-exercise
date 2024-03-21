@@ -3,7 +3,7 @@ import { UserPlus } from "lucide-react";
 
 const CardWhoToFollow: React.FC = () => {
   return (
-    <div className="bg-sky-200 p-4 rounded-lg">
+    <div className="bg-sky-200 p-4 rounded-lg ml-4 mb-3">
       <h2 className="font-bold"> Who To Follow </h2>
 
      {/* Card User */}
