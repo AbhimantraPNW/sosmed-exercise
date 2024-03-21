@@ -1,1 +1,25 @@
-{}
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Budi S",
+      "email": "budis@gmail.com",
+      "password": "Admin123",
+      "isVerify": true
+    },
+    {
+      "id": "2998",
+      "name": "budi",
+      "email": "budi@gmail.com",
+      "password": "Tes123",
+      "isVerify": false
+    },
+    {
+      "id": "8f87",
+      "name": "Heru",
+      "email": "heru@gmail.com",
+      "password": "Admin123",
+      "isVerify": false
+    }
+  ]
+}
